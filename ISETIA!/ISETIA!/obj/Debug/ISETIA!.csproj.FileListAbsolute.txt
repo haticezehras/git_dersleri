@@ -1,7 +1,0 @@
-C:\Users\sevva\Documents\ISETIA_staj_projesi\ISETIA!\ISETIA!\bin\Debug\ISETIA!.exe.config
-C:\Users\sevva\Documents\ISETIA_staj_projesi\ISETIA!\ISETIA!\bin\Debug\ISETIA!.exe
-C:\Users\sevva\Documents\ISETIA_staj_projesi\ISETIA!\ISETIA!\bin\Debug\ISETIA!.pdb
-C:\Users\sevva\Documents\ISETIA_staj_projesi\ISETIA!\ISETIA!\obj\Debug\ISETIA!.csproj.AssemblyReference.cache
-C:\Users\sevva\Documents\ISETIA_staj_projesi\ISETIA!\ISETIA!\obj\Debug\ISETIA!.csproj.CoreCompileInputs.cache
-C:\Users\sevva\Documents\ISETIA_staj_projesi\ISETIA!\ISETIA!\obj\Debug\ISETIA!.exe
-C:\Users\sevva\Documents\ISETIA_staj_projesi\ISETIA!\ISETIA!\obj\Debug\ISETIA!.pdb

@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\sevva\\Documents\\ISETIA_staj_projesi\\ISETIA!\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B46CAC0-C1A2-4EF8-8E3D-CA8278761D97}|ISETIA!\\ISETIA!.csproj|c:\\users\\sevva\\documents\\isetia_staj_projesi\\isetia!\\isetia!\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sevva\\Documents\\ISETIA_staj_projesi\\ISETIA!\\ders2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ders2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B46CAC0-C1A2-4EF8-8E3D-CA8278761D97}|ISETIA!\\ISETIA!.csproj|C:\\Users\\sevva\\Documents\\ISETIA_staj_projesi\\ISETIA!\\isetia!\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B46CAC0-C1A2-4EF8-8E3D-CA8278761D97}|ISETIA!\\ISETIA!.csproj|solutionrelative:isetia!\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +24,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sevva\\Documents\\ISETIA_staj_projesi\\ISETIA!\\ders2\\Program.cs",
+              "RelativeDocumentMoniker": "ders2\\Program.cs",
+              "ToolTip": "C:\\Users\\sevva\\Documents\\ISETIA_staj_projesi\\ISETIA!\\ders2\\Program.cs",
+              "RelativeToolTip": "ders2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T15:47:23.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sevva\\Documents\\ISETIA_staj_projesi\\ISETIA!\\ISETIA!\\Program.cs",
               "RelativeDocumentMoniker": "ISETIA!\\Program.cs",
               "ToolTip": "C:\\Users\\sevva\\Documents\\ISETIA_staj_projesi\\ISETIA!\\ISETIA!\\Program.cs",
               "RelativeToolTip": "ISETIA!\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-03T12:32:41.912Z",
               "EditorCaption": ""
