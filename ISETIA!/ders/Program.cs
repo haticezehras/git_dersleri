@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
+using System.Runtime.Serialization.Formatters;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,257 +12,207 @@ namespace ISETIA_
     {
         static void Main(string[] args)
         {
-            #region IF ELSE
-            // Console.WriteLine("lutfen sifrenizi giriniz: ");
-            // string password;
-            // password = Console.ReadLine();
-
-            //if( password == "abcd")
-            // {
-            //     Console.WriteLine("sifre dogru ");
-            // }
-            // else
-            // {
-            //     Console.WriteLine("hatali sifre");
-            // }
-            // Console.Read();
-
-
-            //string baskent, ulke;
-
-            //Console.WriteLine("ulkeyi giriniz: ");
-            //ulke = Console.ReadLine();
-
-            //Console.WriteLine("başkenti giriniz: ");
-            //baskent = Console.ReadLine();
-
-
-            //if (ulke == "turkiye" && baskent == "ankara")
+            #region For Dongusu
+            //int i;
+            //for (i = 0; i <= 5; i++)
             //{
-            //    Console.WriteLine("veriler dogrulandi. ");
+            //    Console.WriteLine("zehra");
+            //}
 
-            //}
-            //else
-            //{
-            //    Console.WriteLine("hatali veri girisi!");
-            //}
-            //double ortalama;
-            //int vize, quiz, final;
-            //Console.WriteLine("vize notunuzu giriniz: ");
-            //vize = int.Parse(Console.ReadLine());
-            //Console.WriteLine("quiz notunuzu giriniz: ");
-            //quiz = int.Parse(Console.ReadLine());
-            //Console.WriteLine("final notunuzu giriniz ");
-            //final = int.Parse(Console.ReadLine());
+            //Console.Read();
 
-            //ortalama = (vize + quiz + final) / 3;
-            //Console.WriteLine("sınavlarin ortalamasi: " + ortalama);
 
-            //if (ortalama >= 50)
+            //for (int i = 3; i <= 50; i += 3)
             //{
-            //    Console.WriteLine("tebrikler gectiniz");
+            //    Console.WriteLine(i);
             //}
-            //else
-            //{
-            //    Console.WriteLine("dersten kaldiniz");
-            //}
-            //string username;
-            //Console.WriteLine("lütfen kullanıcı adını giriniz:");
-            //username = Console.ReadLine();
 
-            //if(username != "zehra")
+
+            //Console.WriteLine("kaç adet yazilsin: ");
+            //int sayi=int.Parse(Console.ReadLine());
+
+            //for (int i = 0; i < sayi; i++)
             //{
-            //    Console.WriteLine("hatali giris");
+            //    Console.WriteLine("hello");
             //}
-            //else
-            //{
-            //    Console.WriteLine("dogru kullanici adi");
-            //}
+
+
 
             #endregion
-            #region Mod İşlemleri
+            #region For Dongusu İle Karar Yapilari
 
-            //Console.WriteLine("Lutfen 1. sayiyi giriniz: ");
-            //int number=int.Parse(Console.ReadLine());
-
-            //Console.Write("lutfen 2. sayiyi giriniz: ");
-            //int number2=int.Parse(Console.ReadLine());
-            //int sonuc2 = number % number2;
-
-            //Console.WriteLine(number+" sayisinin "+number2 +" sayisina bolumuhnden kalan=  "+ sonuc2);
-
-
-
-            //int number;
-            //Console.WriteLine("sayi: ");
-            //number=int.Parse(Console.ReadLine());
-
-            //if (number % 2 == 0)
+            //Console.WriteLine("5 e tam bolunen sayilar: ");
+            //for (int i = 5; i <= 100; i++)
             //{
-            //    Console.WriteLine("sayi cift");
+            //    if (i % 5 == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
             //}
-            //else
+
+
+
+
+            //int toplam = 0;
+            //for (int i = 0; i <= 10; i++)
             //{
-            //    Console.WriteLine("sayi tek ");
+            //    toplam += i;
+
             //}
+            // Console.WriteLine(toplam); 
+
+
+
+
+            //Console.WriteLine("1-20 arasindaki cift sayilarin toplami: ");
+            //int toplam = 0;
+            //for (int i = 0; i <= 20; i++)
+            //{
+            //    if (i % 2 == 0)
+            //    {
+            //        toplam += i;
+            //        Console.WriteLine(i);
+            //    }
+
+            //}
+            //Console.WriteLine("--------------");
+            //Console.WriteLine(toplam);
+
+
+
+            //Console.WriteLine("1-50 arasinda 7 ye bolunen kac sayi var?");
+
+            //int toplamSayi=0;
+            //for (int i = 1; i<=50; i++)
+            //{
+            //    if (i % 7 == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //        toplamSayi++;
+
+            //    }
+
+            //}
+            //Console.WriteLine("toplam = " + toplamSayi + " sayi vardir");
+
+
+
+            //int bakteri = 1;
+            //Console.WriteLine("her saatin sonunda bakteriler 2 ye bölünüyorsa 24 saatin sonunda kaç bakteri olur? ");
+            //for (int i = 1; i <= 24; i++)
+            //{
+            //    bakteri *= 2;
+            //    Console.WriteLine(i+". saatin sonunda: "+bakteri);
+            //}
+
+
             #endregion
-
-            #region Ornek
-            //char harf;
-            //Console.WriteLine("lütfen f g b veya t harflerinden birini giriniz: ");
-            //harf=char.Parse(Console.ReadLine());
-
-            //if (harf == 'f')
+            #region While Dongusu
+            //int i = 1;
+            //while (i <= 10)
             //{
-            //    Console.WriteLine("fenerbahçe");
-            //}
-            //else if (harf == 'g')
-            //{
-            //    Console.WriteLine("galatasaray");
-            //}
-            //else if (harf == 'b')
-            //{
-            //    Console.WriteLine("besiktas");
-
-            //}
-            //else if (harf == 't')
-            //{
-            //    Console.WriteLine("trabzonspor");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("gecersiz harf");
+            //    Console.WriteLine(i);
+            //    i++;
             //}
 
-            //Console.WriteLine("------MENÜ-------");
-            //Console.WriteLine();
-            //Console.WriteLine("1_Çorba Menüsü");
-            //Console.WriteLine("2-Hamburger Menüsü");
-            //Console.WriteLine("3-Tatlı Menüsü");
-            //Console.WriteLine("4-İçecek Menüsü");
-            //Console.WriteLine();
-            //int menuNumarasi;
-            //Console.WriteLine("Açmak istediğiniz menü numarasını tuşlayınız.");
-            //menuNumarasi=int.Parse(Console.ReadLine());
 
-            //if (menuNumarasi == 1)
+            //int i = 1;
+            //int toplam = 0;
+            //while (i <= 10)
             //{
-            //    Console.WriteLine("-----ÇORBA MENÜSÜ-----");
+            //    toplam += i;
+            //    i++;
+
+            //}
+            //Console.WriteLine(toplam);
+
+
+
+
+
+
+
+
+
+
+
+
+
+            #endregion
+            #region ORNEK SORU
+            ////KLAVYEDEN GİRİLEN ÜÇ BASAMAKLI BİR SAYININ BASAMAKLARININ TOPLAMINI BULUNUZ.
+
+            //int sayi;
+            //int toplam = 0;
+            //int birlerb, onlarb, yüzlerb;
+            //Console.WriteLine("3 Basamakli Bir Sayi Giriniz: ");
+            //sayi=int.Parse(Console.ReadLine());
+
+            //birlerb = sayi % 10;
+            //Console.WriteLine("Sayinin birler basamagi: " + birlerb);
+
+            //onlarb = (sayi/10) % 10;
+            //Console.WriteLine("Sayinin onlar basamagi: " + onlarb);
+
+            //yüzlerb = (sayi / 100) % 10;
+            //Console.WriteLine("Sayinin yüzler basamagi: " + yüzlerb);
+
+            //toplam = onlarb + yüzlerb + birlerb;
+            //Console.WriteLine(sayi + " sayisinin basamaklarinin toplami: " + toplam);
+
+
+
+
+
+
+
+
+
+            #endregion
+            #region YILDIZ ORNEGİ
+
+            //// DİK ÜÇGEN 
+            //for (int i=1; i <= 5; i++)
+            //{
+            //    for (int j=1; j <= i; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
             //    Console.WriteLine();
-            //    Console.WriteLine("1-Sebze Çorbası");
-            //    Console.WriteLine("2-Mercimek Çorbası");
-            //    Console.WriteLine("3-Tarhana Çorbası");
-            //    Console.WriteLine("4-Domates Çorbası");
             //}
-            //else if (menuNumarasi == 2)
+
+            //// TERS DİK ÜÇGEN
+            //for (int i = 5; i >= 1; i--)
             //{
-            //    Console.WriteLine("----HAMBURGER MENÜSÜ-----");
+            //    for (int j = 1; j <= i; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
             //    Console.WriteLine();
-            //    Console.WriteLine("1-CheeseBurger");
-            //    Console.WriteLine("2-Tavuk Burger");
-
             //}
-            //else if (menuNumarasi == 3)
-            //{
-            //    Console.WriteLine("----TATLI MENÜSÜ----");
-            //    Console.WriteLine();
-
-            //    Console.WriteLine("1-Sufle");
-            //    Console.WriteLine("2-Künefe");
-            //    Console.WriteLine("3-Waffle");
-            //    Console.WriteLine("4-Sütlaç");
-            //}
-            //else if (menuNumarasi == 4)
-            //{
-            //    Console.WriteLine("-----İÇECEK MENÜSÜ-----");
-            //    Console.WriteLine();
-            //    Console.WriteLine("1-Ayran");
-            //    Console.WriteLine("2-Limonata");
-            //    Console.WriteLine("3-Şalgam");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("gecersiz numara");
-            //}
-            #endregion
-            #region Switch-Case
-            //Console.WriteLine("Lutfen ay girisi yapiniz:");
-            //int monthNumber=int.Parse(Console.ReadLine());
-            //switch (monthNumber)
-            //{
-            //    case 1:Console.WriteLine("ocak");
-            //        break;
-            //    case 2:Console.WriteLine("şubat");
-            //        break;
-            //    case 3:Console.WriteLine("mart");
-            //        break;
-            //    case 4:Console.WriteLine("nisan");
-            //        break;
-            //    case 5:
-            //        Console.WriteLine("mayıs");
-            //        break;
-            //    case 6:
-            //        Console.WriteLine("haziran");
-            //        break;
-            //    case 7:
-            //        Console.WriteLine("temmuz");
-            //        break;
-            //    case 8:
-            //        Console.WriteLine("ağustos");
-            //        break;
-            //    case 9:
-            //        Console.WriteLine("eylül");
-            //        break;
-            //    case 10:
-            //        Console.WriteLine("ekim");
-            //        break;
-            //    case 11:
-            //        Console.WriteLine("kasım");
-            //        break;
-            //    case 12:
-            //        Console.WriteLine("aralık");
-            //        break;
-
-            //}
-
-
 
 
 
 
 
             #endregion
-            #region Switch Case Hesap Makinesi 
-            //int number1, number2, sonuc;
-            //char islem;
-            //Console.WriteLine("1.SAYI: ");
-            //number1=int.Parse(Console.ReadLine());
-            //Console.WriteLine("2.SAYI: ");
-            //number2=int.Parse(Console.ReadLine());
-            //Console.WriteLine("Lütfen yapmak istediginiz islemi giriniz: ");
-            //islem=char.Parse(Console.ReadLine());
+            #region PİRAMİT
 
-            //switch (islem)
+            //int n = 5;
+            //for (int i = 1; i <=n ; i++)
             //{
-            //    case '+':
-            //        sonuc = number1 + number2;
-            //        Console.WriteLine("Toplam = " + sonuc);
-            //        break;
-            //    case '-':
-            //        sonuc = number1 - number2;
-            //        Console.WriteLine("Fark = " + sonuc);
-            //        break;
-            //    case '*':
-            //        sonuc = number1 * number2;
-            //        Console.WriteLine("Çarpım= " + sonuc);
-            //        break;
-            //    case '/':
-            //        sonuc = number1 / number2;
-            //        Console.WriteLine("Bölüm= " + sonuc);
-            //        break;
-
-                    
+            //    for (int j= n-i ; j>0;j--)
+            //    {
+            //        Console.WriteLine(" ");
+            //    }
+            //    for(int k=1; k<= 2 * i - 1; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
             //}
+
+
 
 
 
@@ -272,17 +223,6 @@ namespace ISETIA_
 
 
 
-
-
-
-
-
-
-
-
-
-
-            Console.Read();
-        }  
+        }
     }
 }
