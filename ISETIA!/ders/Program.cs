@@ -12,119 +12,37 @@ namespace ISETIA_
     {
         static void Main(string[] args)
         {
-            #region For Dongusu
-            //int i;
-            //for (i = 0; i <= 5; i++)
+            #region Void Metotlar
+            //void customerlist()
             //{
-            //    Console.WriteLine("zehra");
+            //    Console.WriteLine("hatice zehra şen");
+            //    Console.WriteLine("hilal köse");
+            //    Console.WriteLine("elif aksakal");
+            //    Console.WriteLine("öykü çaakmak");
             //}
+            //customerlist();
+            //customerlist();
 
-            //Console.Read();
 
 
-            //for (int i = 3; i <= 50; i += 3)
+
+
+
+
+
+            //void toplam()
             //{
-            //    Console.WriteLine(i);
+            //    int a = 5;
+            //    int b = 4;
+            //    int c = a + b;
+            //    Console.WriteLine(c);
             //}
-
-
-            //Console.WriteLine("kaç adet yazilsin: ");
-            //int sayi=int.Parse(Console.ReadLine());
-
-            //for (int i = 0; i < sayi; i++)
-            //{
-            //    Console.WriteLine("hello");
-            //}
-
-
-
-            #endregion
-            #region For Dongusu İle Karar Yapilari
-
-            //Console.WriteLine("5 e tam bolunen sayilar: ");
-            //for (int i = 5; i <= 100; i++)
-            //{
-            //    if (i % 5 == 0)
-            //    {
-            //        Console.WriteLine(i);
-            //    }
-            //}
+            //toplam();
 
 
 
 
-            //int toplam = 0;
-            //for (int i = 0; i <= 10; i++)
-            //{
-            //    toplam += i;
 
-            //}
-            // Console.WriteLine(toplam); 
-
-
-
-
-            //Console.WriteLine("1-20 arasindaki cift sayilarin toplami: ");
-            //int toplam = 0;
-            //for (int i = 0; i <= 20; i++)
-            //{
-            //    if (i % 2 == 0)
-            //    {
-            //        toplam += i;
-            //        Console.WriteLine(i);
-            //    }
-
-            //}
-            //Console.WriteLine("--------------");
-            //Console.WriteLine(toplam);
-
-
-
-            //Console.WriteLine("1-50 arasinda 7 ye bolunen kac sayi var?");
-
-            //int toplamSayi=0;
-            //for (int i = 1; i<=50; i++)
-            //{
-            //    if (i % 7 == 0)
-            //    {
-            //        Console.WriteLine(i);
-            //        toplamSayi++;
-
-            //    }
-
-            //}
-            //Console.WriteLine("toplam = " + toplamSayi + " sayi vardir");
-
-
-
-            //int bakteri = 1;
-            //Console.WriteLine("her saatin sonunda bakteriler 2 ye bölünüyorsa 24 saatin sonunda kaç bakteri olur? ");
-            //for (int i = 1; i <= 24; i++)
-            //{
-            //    bakteri *= 2;
-            //    Console.WriteLine(i+". saatin sonunda: "+bakteri);
-            //}
-
-
-            #endregion
-            #region While Dongusu
-            //int i = 1;
-            //while (i <= 10)
-            //{
-            //    Console.WriteLine(i);
-            //    i++;
-            //}
-
-
-            //int i = 1;
-            //int toplam = 0;
-            //while (i <= 10)
-            //{
-            //    toplam += i;
-            //    i++;
-
-            //}
-            //Console.WriteLine(toplam);
 
 
 
@@ -139,90 +57,116 @@ namespace ISETIA_
 
 
             #endregion
-            #region ORNEK SORU
-            ////KLAVYEDEN GİRİLEN ÜÇ BASAMAKLI BİR SAYININ BASAMAKLARININ TOPLAMINI BULUNUZ.
 
-            //int sayi;
-            //int toplam = 0;
-            //int birlerb, onlarb, yüzlerb;
-            //Console.WriteLine("3 Basamakli Bir Sayi Giriniz: ");
-            //sayi=int.Parse(Console.ReadLine());
-
-            //birlerb = sayi % 10;
-            //Console.WriteLine("Sayinin birler basamagi: " + birlerb);
-
-            //onlarb = (sayi/10) % 10;
-            //Console.WriteLine("Sayinin onlar basamagi: " + onlarb);
-
-            //yüzlerb = (sayi / 100) % 10;
-            //Console.WriteLine("Sayinin yüzler basamagi: " + yüzlerb);
-
-            //toplam = onlarb + yüzlerb + birlerb;
-            //Console.WriteLine(sayi + " sayisinin basamaklarinin toplami: " + toplam);
+            #region Geriye Değer Döndürmeyen String Parametreli Metotlar
+            //void writemethod(string customername)
+            //{
+            //    Console.WriteLine(customername);
+            //}
+            //Console.WriteLine("zehra şşen");
 
 
 
 
+            //void customercard(string customerName,string customerSurname)
+            //{
+            //    Console.WriteLine("müşteri: "+customerName+" "+customerSurname);
+
+            //}
+            //customercard("ahmet", "yılmaz");
+            //customercard("zehra ", "şen");
+
+            #endregion
+
+            #region Geriye Değer Döndürmeyen İnt Parametreli Metotlar
 
 
+            //void toplama(int n1,int n2, int n3)
+            //{
+            //   int toplam = n1 + n2 + n3;
+            //    Console.WriteLine(n1+" "+n2+" "+n3+" sayilarinin toplami: "+toplam);
+            //}
+            //toplama(2, 4, 6);
 
 
 
             #endregion
-            #region YILDIZ ORNEGİ
 
-            //// DİK ÜÇGEN 
-            //for (int i=1; i <= 5; i++)
+            #region Geriye Değer Döndüren Metotlar
+            //string studentCard()
             //{
-            //    for (int j=1; j <= i; j++)
-            //    {
-            //        Console.Write("*");
-            //    }
-            //    Console.WriteLine();
+            //    string name = "zehra";
+            //    string surname = "şen";
+            //    return "isim: " + name + " " + surname;
             //}
-
-            //// TERS DİK ÜÇGEN
-            //for (int i = 5; i >= 1; i--)
-            //{
-            //    for (int j = 1; j <= i; j++)
-            //    {
-            //        Console.Write("*");
-            //    }
-            //    Console.WriteLine();
-            //}
-
-
-
-
-
-            #endregion
-            #region PİRAMİT
-
-            //int n = 5;
-            //for (int i = 1; i <=n ; i++)
-            //{
-            //    for (int j= n-i ; j>0;j--)
-            //    {
-            //        Console.WriteLine(" ");
-            //    }
-            //    for(int k=1; k<= 2 * i - 1; k++)
-            //    {
-            //        Console.Write("*");
-            //    }
-            //    Console.WriteLine();
-            //}
-
-
+            //Console.WriteLine(studentCard());
 
 
 
 
             #endregion
 
+            #region Geriye Değer Döndğren Parametreli Metotlar
+            //string ulkeler(string ulke,string baskent)
+            //{
+            //    string cardInfo = "Ülke: " + ulke + " baskenti: " + baskent;
+            //    return cardInfo;
+
+            //}
+            //string x, y;
+            //Console.WriteLine("ülke adını giriiniz: ");
+            //x=Console.ReadLine();
+
+            //Console.WriteLine("Baskent adını giriiniz: ");
+            //y = Console.ReadLine();
+
+
+
+            //Console.WriteLine(ulkeler(x,y));
+
+            #endregion
+
+            #region Geriye Değer Döndren İnt Parametreli Metotlar
+            //int sum(int number1,int number2)
+            //{
+            //    int result = number1 + number2;
+            //    return result;
+            //}
+
+            //Console.WriteLine(sum(45, 67));
+
+            //Console.WriteLine(sum(65, 80));
+
+            //Console.WriteLine(sum(23, 9));
+
+
+
+            #endregion
+
+            #region ÖrnekUygulama
+            //string sınavSistemi(string ogrenci,int vize,int quiz,int final)
+            //{
+            //    int ortalama = (vize + quiz + final) / 3;
+            //    if (ortalama < 50)
+            //    {
+            //        return ogrenci+"  isimli ogrenci sinavdan kaldi ortalamasi : " + ortalama;
+            //    }
+            //    else
+            //    {
+            //        return ogrenci + " isimli ogrenci sinavdan gecti ortalalması: " + ortalama;
+            //    }
+            //}
+            //Console.WriteLine(sınavSistemi("zehra",25, 60, 78));
+            //Console.WriteLine(sınavSistemi("batu", 15, 60, 48));
+            //Console.WriteLine(sınavSistemi("irem", 55, 60, 12));
 
 
 
 
+
+            #endregion
+
+            Console.Read();
         }
     }
 }
