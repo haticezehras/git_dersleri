@@ -11,212 +11,68 @@ namespace ISETIA_
     {
         static void Main(string[] args)
         {
+            #region  Foreach Dongusu
+            //Foreach(1;2;3;4;
+
+            //1-değişken türü
+            //2-değişken adı
+            //3-In
+            //4-Liste,Koleksiyon,Dizi 
 
 
-            #region Temel Dizi Örnekleri
-
-            // DegiskenTürü [] DiziAdi = new DegiskenTürü [ElemanSayisi]
-            //string[] colors = new string[4];
-            //colors[0]= "kırmızı";
-            //colors[1] = "mavi";
-            //colors[2] = "yeşil";
-            //colors[3] = "beyaz";
-
-            //Console.WriteLine(colors[3]);
-
-
-
-            //string[] sehir = new string[4];
-            //sehir[0] = "istanbul";
-            //sehir[1] = "ankara";
-            //sehir[2] = "sinop";
-            //sehir[3] = "yalova";
-            //
-            //Console.WriteLine(sehir[1]);
-
-
-
-
-
-            //string[] ciftsayilar = new string[8];
-            //ciftsayilar[0] = "12";
-            //ciftsayilar[1] = "8";
-            //ciftsayilar[6] = "34";
-
-            //Console.WriteLine(ciftsayilar[5]);
-
-            //string[] sehir = { "ankara", "istanbul", "sinop", "yalova", "gumushane" };
-            //Console.WriteLine(sehir[2]);
-
-
-
-
-
-
-            #endregion
-
-            #region Dizideki Elemanları Listeleme
-
-            //string[] colors = { "sari", "kirmizi", "beyaz", "mavi", "bordo", "siyah", "lacivert" };
-            //for (int i = 0; i < colors.Length; i++)
+            //string[] cities = { "istanbul", "Ankara", "Bolu", "Yalova", "Bursa", "Samsun" };
+            //foreach (string city in cities)
             //{
-            //    Console.WriteLine(colors[i]);
+            //    Console.WriteLine(city);
+            //}
+
+
+
+            //int[] numbers = { 1, 2, 3, 4, 4, 43, 23, 67, 887, 43, 23, 656, 7, 89 };
+            //foreach (int number in numbers)
+            //{
+            //    Console.WriteLine(number);
             //}
 
 
 
 
-            //int [] numbers = { 124, 3974, 78473, 98, 5, 340, 908, 1479, 876,307};
-            //for (int i = 0; i < numbers.Length; i++)
+            //int[] numbers = { 1, 2, 3, 4, 4, 43, 23, 67, 887, 43, 23, 656, 7, 89 };
+            //foreach (int number in numbers)
             //{
-            //    if (numbers[i] % 3 == 0)
+            //    if (number % 2 == 0)
             //    {
-            //        Console.WriteLine(numbers[i]);
+            //        Console.WriteLine(number + " sayisi cift");
             //    }
-            //}
-
-
-
-
-
-
-            //int[] sayilar = { 1, 2, 3, 4, 6, 4, 3, 6, 86, 34, 678, 987, 3, 34, 21, 567, 8764, 45567 };
-            //int maxnumber = sayilar[0];
-            //for (int i = 0; i < sayilar.Length; i++)
-            //{
-            //    if (sayilar[i] > maxnumber)
+            //    else
             //    {
-            //        maxnumber= sayilar[i];
-
-            //    }        
+            //        Console.WriteLine(number + " sayisi tek");
+            //    }
 
             //}
-            //Console.WriteLine("en buyuk sayi: " + maxnumber);
-
-
-
-
-
-
-
-            //string[] persons = { "ali", "ayse", "mehmet", "fatma", "ahmet" };
-            //Console.WriteLine(persons.Length);
-
-
-
-
-
-
-
-            //int[] numbers = { 1, 2, 3, 4, 57, 5, 3, 546, 8, 76, 435, 78, 98, 43 };
-            //Array.Sort(numbers);
-            //for (int i = 0; i < numbers.Length; i++)
-            //{
-            //    Console.WriteLine(numbers[i]);
-            //}
-
-
-
-
-
-
-
-            //int[] numbers = { 1, 2, 3, 4, 57, 5, 3, 546, 8, 76, 435, 78, 98, 43 };
-            //Array.Reverse(numbers);
-            //for (int i = 0; i < numbers.Length; i++)
-            //{
-            //    Console.WriteLine(numbers[i]);
-            //}
-
-
-
-
-
-            #endregion
-
-            #region Dizi Metotları
-
-            //string[] customers = { "aki", "ayse", "zehra", "öykü", "haktan" };
-            //int index = Array.IndexOf(customers, "ayse");
-            //Console.WriteLine(index);
-
-
-            ////int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
-            ////Console.WriteLine("dizinin en büyük elemanı: " + numbers.Max() + " dizinin en küçük elemanı: " + numbers.Min()); 
-            ///
-
-
-
-
-
-
-
-
-
-
-
-
-
-            #endregion
-
-            #region Kullanıcıdan Değer Alma
-
-            //int i;
-            //string [] cities = new string[5];
-            //for (i = 0; i < cities.Length; i++)
-            //{
-            //    Console.Write($"Lütfen {i + 1}. şehri giriniz: ");
-            //    cities[i] = Console.ReadLine();
-            //}
-            //for (i = 0; i < cities.Length; i++)
-            //{
-            //    Console.WriteLine(cities[i]);
-            //}
-
-
 
 
 
             //int toplam = 0;
-            //int [] toplama = { 10, 20, 30, 40, 50 };
-            //for (int i = 0; i < toplama.Length; i++)
+            //int[] numbers = { 1, 2, 3, 4, 4 };
+            //foreach (int number in numbers)
             //{
-            //    toplam += toplama[i];
+            //    toplam+=number;
 
             //}
             //Console.WriteLine(toplam);
 
 
 
-
-            
-            //int[] sayilar = {1,2,3,4,54,345,7877,63,4678,9,5432,2455,6,43,243,45,987,90,87,63,12,3,46 };
-            //Console.WriteLine("---ÇİFT SAYILAR---");
-            //for (int i = 0; i < sayilar.Length; i++)
-            //{              
-            //    if (sayilar[i] % 2 == 0)
-            //    {                  
-            //        Console.WriteLine(sayilar[i] );
-            //    }                
-            //}
-            //Console.WriteLine("---TEK SAYILAR---");
-            //for (int i = 0; i < sayilar.Length; i++)
+            //List <int> numbers= new List<int>()
             //{
-            //    if (sayilar[i] % 2 == 1)
-            //    {                
-            //        Console.WriteLine(sayilar[i]);
-            //    }
+            //    12,34,5,6,43,76
+            //};
+
+            //foreach (int i in numbers)
+            //{
+            //    Console.WriteLine(i);
             //}
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -225,6 +81,51 @@ namespace ISETIA_
 
             #endregion
 
+            #region Örnek Sınav Sistemi Uygulaması
+            //Console.WriteLine("---------------------------------");
+            //Console.WriteLine("Sınıfınızda kaç tane öğrenci var? ");
+            //int ogrenci_sayisi = int.Parse(Console.ReadLine());
+            //Console.WriteLine("---------------------------------");
+            //Console.WriteLine();
+            //Console.WriteLine();
+
+            //string [] ogrenciler = new string [ogrenci_sayisi];
+            //double [] ogrenci_notlari = new double[ogrenci_sayisi];
+
+            //for (int i = 0; i < ogrenci_sayisi; i++)
+            //{
+            //    Console.WriteLine($"{i + 1}. ogrencinin ismi: ");
+            //    ogrenciler[i]= Console.ReadLine();
+
+            //    double toplam = 0;
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        Console.WriteLine($"{ogrenciler[i]}  öğrencisinin {j+1}. sınav notunu giriniz: ");
+            //        double value=double.Parse(Console.ReadLine());
+            //        toplam += value;
+            //    }
+            //    Console.WriteLine();
+            //    ogrenci_notlari[i] = toplam / 3;
+
+            //}
+            //for (int i = 0; i < ogrenci_sayisi; i++)
+            //{
+            //    Console.WriteLine("----------------------");
+            //    Console.WriteLine($"{ogrenciler[i]} öğrencisinin ortalaması:" + ogrenci_notlari[i]);
+            //    if (ogrenci_notlari[i] < 50)
+            //    {
+            //        Console.WriteLine($"{ogrenciler[i]} dersten kaldi.");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"{ogrenciler[i]} dersten gecti.");
+            //    }
+            //    Console.WriteLine("----------------------");
+
+            //}
+          
+
+            #endregion
 
 
 
