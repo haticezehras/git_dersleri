@@ -12,23 +12,14 @@ namespace ISETIA_
     {
         static void Main(string[] args)
         {
-            
-            Araba araba1=new Araba();
+            Musteri musteri1=new Musteri();
 
-            araba1.arabaRengi = "kırmızı";
-            araba1.arabaModeli = "Reanult";
-            araba1.kapiSayisi = 4;
-
-            araba1.kapilariKilitle();
-            araba1.motorCalistir();
-
-            Console.WriteLine("Arabanın kapı sayısı: "+araba1.kapiSayisi);
-            Console.WriteLine("Arabanın rengi: " + araba1.arabaRengi);
-            Console.WriteLine("Arabanın modeli: "+araba1.arabaModeli);
-
-
-
-            Console.Read();
+            musteri1.musteriAdi = "Zehra";
+            musteri1.musteriSoyadi = "şen";
+            musteri1.musteriMaas = 50000;
+            musteri1.musteriYas = 28;
+            musteri1.musteriCinsiyeti = "kız";
+            musteri1.musteriBilgileriGoster();
         }
     }
 }
