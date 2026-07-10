@@ -10,8 +10,12 @@ namespace ISETIA_
     {
         public int kapiSayisi;
         public string arabaModeli;
-        public string arabaRengi; 
+        public string arabaRengi;
 
+        public Araba()
+        {
+            Console.WriteLine("araba sınıfnın yapıcı metodu calisti");
+        }
 
         public void motorCalistir()
         {
